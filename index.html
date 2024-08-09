@@ -7,7 +7,7 @@
     <title>Chery event</title>
     
     <script type="module" crossorigin src="/chery-event/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/chery-event/assets/index-ba997663.css">
+    <link rel="stylesheet" href="/chery-event/assets/index-3f890802.css">
   </head>
   <body>
     <header class="header">
@@ -102,29 +102,34 @@
       <section class="invite-form">
   <div class="container">
     <div class="section">
-      <h2>Пожалуйста, подтвердите свое присутствие</h2>
-      <p>
+      <h2 class="section-title">Пожалуйста, подтвердите свое присутствие</h2>
+      <p class="section-desc">
         Для обеспечения комфортной организации мероприятия, просим подтвердить
-        ваше присутствие, заполнив формуда ниже.
+        ваше присутствие, заполнив форму ниже.
       </p>
       <form action="">
-        <ul>
+        <ul class="form-list">
           <li>
-            <input type="text" />
+            <input
+              class="form-style input-form"
+              type="text"
+              placeholder="Имя и Фамилия участника"
+            />
           </li>
           <li>
-            <select name="" id="">
+            <select class="form-style" name="" id="" placeholder="DfiR">
               <option value="">да, с удовольствием</option>
               <option value="">нет, к сожалению</option>
             </select>
           </li>
           <li>
-            <select name="" id="">
+            <select class="form-style" name="" id="">
               <option value="">Буду учавствовать</option>
               <option value="">Не буду учавствовать</option>
             </select>
           </li>
         </ul>
+        <button class="submit-btn" type="submit">Отправить</button>
       </form>
     </div>
   </div>

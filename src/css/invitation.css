@@ -1,4 +1,4 @@
-.section {
+.invitation .section {
   padding-top: 40px;
 }
 
@@ -19,6 +19,9 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .invitation .section {
+    padding-top: 63px;
+  }
   .main-title {
     font-weight: 900;
     font-size: 25px;

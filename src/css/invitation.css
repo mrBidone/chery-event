@@ -22,11 +22,13 @@
   .invitation .section {
     padding-top: 63px;
   }
+
   .main-title {
     font-weight: 900;
     font-size: 25px;
     margin-bottom: 30px;
   }
+
   .invitation-list {
     line-height: 1.67;
     display: flex;

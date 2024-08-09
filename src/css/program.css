@@ -1,0 +1,24 @@
+.program-title {
+  margin-bottom: 20px;
+}
+
+.program-list-item {
+  display: flex;
+  padding: 20px 0;
+}
+.program-list-item:not(:last-child) {
+  border-bottom: 1px solid #dadada;
+}
+.program-time {
+  margin-right: 15px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .program-title {
+    margin-bottom: 10px;
+  }
+
+  .program-time {
+    margin-right: 50px;
+  }
+}

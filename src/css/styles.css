@@ -4,22 +4,56 @@
   | default @import url()
   |============================
 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter+Tight:wght@600&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
-
+@import url('./hero.css');
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: 'Mulish', sans-serif;
   font-weight: 400;
+  font-size: 15px;
+  line-height: 1.66667;
+  color: #000;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: #ca0100;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.bg-img-thumb {
+  background-image: url('../img/mob/bg-mob.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 30px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .bg-img-thumb {
+    background-image: url('../img/desk/bg-desk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    max-width: 592px;
+  }
+
+  .section {
+    padding: 63px 60px;
+  }
 }

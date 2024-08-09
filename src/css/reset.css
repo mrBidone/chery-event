@@ -20,10 +20,13 @@ ul {
 }
 
 a {
+  display: block;
   color: currentColor;
   text-decoration: none;
   padding: 0;
   margin: 0;
+  line-height: 0;
+  cursor: pointer;
 }
 
 button {

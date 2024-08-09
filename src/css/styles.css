@@ -10,6 +10,7 @@
 @import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./invitation.css');
 :root {
   font-family: 'Mulish', sans-serif;
   font-weight: 400;
@@ -18,7 +19,7 @@
   color: #000;
 
   color: #242424;
-  background-color: #ca0100;
+  background-color: #808080;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,14 +35,17 @@
 }
 
 .container {
-  max-width: 375px;
+  max-width: 345px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
   padding: 60px 30px;
+  background-color: #ffffff;
 }
-
+.section-wrapper {
+}
 @media only screen and (min-width: 1440px) {
   .bg-img-thumb {
     background-image: url('../img/desk/bg-desk.png');
@@ -50,7 +54,7 @@
   }
 
   .container {
-    max-width: 592px;
+    max-width: 622px;
   }
 
   .section {

@@ -1,0 +1,29 @@
+.main-title {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.invitation-list {
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accent-text {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1440px) {
+  .main-title {
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .invitation-list {
+    line-height: 1.67;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}

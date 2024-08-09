@@ -6,15 +6,28 @@
   display: flex;
   align-items: center;
   gap: 23px;
-}
-
-.nav-list-item {
-  padding: 15px 0 15px 0;
+  height: 43px;
 }
 
 .nav-list-item:not(:last-child) {
-  padding-right: 30px;
+  padding: 14px 30px 14px 2px;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-list-icon {
+  line-height: 0;
+}
+
+.chery-logo,
+.chery-logo-icon {
+  width: 138px;
+  height: 16px;
+}
+
+.koinot-logo,
+.koinot-logo-icon {
+  width: 55px;
+  height: 21px;
 }
 
 .header-call-btn {
@@ -24,6 +37,33 @@
   display: none;
 }
 @media only screen and (min-width: 1440px) {
+  .header {
+    padding: 60px 0 55px 0;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 56px;
+  }
+
+  .nav-list-item:not(:last-child) {
+    padding: 20px 30px 20px 2px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .chery-logo,
+  .chery-logo-icon {
+    width: 178px;
+    height: 16px;
+  }
+
+  .koinot-logo,
+  .koinot-logo-icon {
+    width: 71px;
+    height: 27px;
+  }
+
   .nav-wrapper {
     display: flex;
     align-items: center;
@@ -41,11 +81,18 @@
     background-color: rgba(255, 255, 255, 0.1);
     margin-left: auto;
   }
+
+  .call-btn-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.92;
+    color: #fff;
+  }
   .button-desc {
     display: flex;
     justify-content: flex-end;
     font-size: 14px;
-    line-height: 1.79;
+    line-height: 1.1;
     color: #d07a7b;
   }
 }

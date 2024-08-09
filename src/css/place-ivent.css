@@ -1,0 +1,143 @@
+.place-ivent .section {
+  border-radius: 0 0 15px 15px;
+  padding-top: 20px;
+}
+
+.place-ivent-title {
+  margin-bottom: 20px;
+}
+
+.place-desc {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.adress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding-bottom: 174px;
+}
+
+.adress-list-item {
+  display: flex;
+}
+
+.adress-list-item::before {
+  display: block;
+  content: '';
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 18px;
+  background-color: #b6b6b6;
+}
+
+.list-point-icon::before {
+  background-image: url(../img/svg/locator.svg);
+}
+
+.list-tel-icon::before {
+  background-image: url(../img/svg/tel.svg);
+}
+
+.adress-desc {
+  max-width: 200px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bg-thumb {
+  position: relative;
+  background-image: url(../img/mob/location-map-mob@2x.jpg);
+  background-position: bottom;
+  background-size: 315px 280px;
+  background-repeat: no-repeat;
+}
+
+.location-point {
+  position: absolute;
+  left: 73px;
+  bottom: 60px;
+
+  width: 90px;
+  height: 90px;
+  line-height: 0;
+  font-size: 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .place-ivent .section {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .place-ivent-title {
+    margin-bottom: 30px;
+    max-width: 300px;
+  }
+
+  .place-desc {
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+
+  .adress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-bottom: 152px;
+  }
+
+  .adress-list-item {
+    display: flex;
+  }
+
+  .adress-list-item::before {
+    display: block;
+    content: '';
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    background-color: #b6b6b6;
+  }
+
+  .list-point-icon::before {
+    background-image: url(../img/svg/locator.svg);
+  }
+
+  .list-tel-icon::before {
+    background-image: url(../img/svg/tel.svg);
+  }
+
+  .adress-desc {
+    max-width: 350px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .bg-thumb {
+    position: relative;
+    background-image: url(../img/desk/location-map-desk@2x.jpg);
+    background-position: bottom;
+    background-size: 591px 380px;
+    background-repeat: no-repeat;
+  }
+
+  .location-point {
+    position: absolute;
+    left: 223px;
+    bottom: 93px;
+
+    width: 90px;
+    height: 90px;
+    line-height: 0;
+    font-size: 0;
+  }
+}

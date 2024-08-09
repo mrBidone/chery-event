@@ -11,6 +11,7 @@
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./invitation.css');
+@import url('./invite-form.css');
 :root {
   font-family: 'Mulish', sans-serif;
   font-weight: 400;
@@ -41,7 +42,7 @@
 }
 
 .section {
-  padding: 60px 30px;
+  padding: 20px 30px;
   background-color: #ffffff;
 }
 .section-wrapper {

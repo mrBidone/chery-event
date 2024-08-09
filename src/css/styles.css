@@ -14,6 +14,7 @@
 @import url('./invite-form.css');
 @import url('./program.css');
 @import url('./place-ivent.css');
+@import url('./footer.css');
 
 :root {
   font-family: 'Mulish', sans-serif;
@@ -48,8 +49,7 @@
   padding: 20px 30px;
   background-color: #ffffff;
 }
-.section-wrapper {
-}
+
 @media only screen and (min-width: 1440px) {
   .bg-img-thumb {
     background-image: url('../img/desk/bg-desk.png');

@@ -1,4 +1,7 @@
 /* Reset styles */
+/* html {
+  box-sizing: border-box;
+} */
 h1,
 h2,
 h3,
@@ -20,7 +23,7 @@ ul {
 }
 
 a {
-  display: block;
+  display: inline-block;
   color: currentColor;
   text-decoration: none;
   padding: 0;

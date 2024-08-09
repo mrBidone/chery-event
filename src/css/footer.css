@@ -1,0 +1,53 @@
+.footer {
+  padding: 30px 0 60px 0;
+}
+
+.footer .nav-list {
+  margin-bottom: 20px;
+}
+
+.footer .nav-list-item:not(:last-child) {
+  padding: 15px 23px 15px 2px;
+}
+.header-links-icon {
+}
+.footer-chery-logo,
+.footer-chery-logo-icon {
+  width: 138px;
+  height: 13px;
+}
+
+.footer-koinot-logo,
+.footer-koinot-logo-icon {
+  width: 55px;
+  height: 21px;
+}
+.footer-desc-list {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.2);
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-bottom: 33px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 15px;
+}
+.social-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+.social-link-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
